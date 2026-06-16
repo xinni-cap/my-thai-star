@@ -56,7 +56,7 @@
     "@angular/platform-server": "~13.1.2",
     "@angular/router": "~13.1.2",
     "@angular/service-worker": "~13.1.2",
-    "@busacca/ng-pick-datetime": "^12.0.0",
+    "@busacca/ng-pick-datetime": "^13.0.1",
     "@ngneat/transloco": "^2.23.3",
     "@ngrx/effects": "^12.2.0",
     "@ngrx/entity": "^12.2.0",
