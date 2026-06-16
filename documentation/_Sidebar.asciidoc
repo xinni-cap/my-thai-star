@@ -1,4 +1,5 @@
 * link:Home.asciidoc[Wiki Home]
+** link:my-thai-start-1-insights.asciidoc[my-thai-start-1 insights]
 ** link:agile.asciidoc[Agile]
 ** link:user-stories.asciidoc[User Stories]
 ** Technical design

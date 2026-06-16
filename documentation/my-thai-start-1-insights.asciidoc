@@ -1,0 +1,37 @@
+= my-thai-start-1 insights
+
+This repository is a multi-stack reference application for restaurant management. It demonstrates one business domain (`My Thai Star`) across several backend implementations and shared frontend/API contracts.
+
+== High-level modules
+
+* `angular/` - Primary web client (Angular).
+* `java/` - Java backend implementation (devon4j-based).
+* `node/` - Node/NestJS backend implementation.
+* `net/` - .NET backend implementation.
+* `swagger/` - API contract definitions shared across backends/clients.
+* `reverse-proxy/` - NGINX routing and deployment-facing composition.
+* `documentation/` - Architecture, design, testing, and delivery docs.
+* `graphQL (deprecated)/`, `serverless (deprecated)/` - Legacy explorations retained for reference.
+
+== Tech stack snapshot
+
+* Frontend: Angular
+* Backends: Java, Node.js (NestJS), .NET
+* API contract: Swagger/OpenAPI
+* Delivery/runtime: Docker, docker-compose, Kubernetes manifests
+* CI/CD assets: Jenkins-oriented pipeline/configuration resources
+
+== Architecture shape
+
+The codebase follows a polyglot, contract-first reference architecture:
+
+* one shared restaurant domain,
+* multiple interchangeable backend implementations,
+* a web frontend consuming consistent API behavior,
+* infrastructure folders for deployment, proxying, and cluster rollout.
+
+== Where to start
+
+1. Read `README.adoc` for project intent and local deployment.
+2. Open `documentation/master-my-thai-star.asciidoc` for full technical documentation map.
+3. For hands-on exploration, start with `angular/` + one backend (`java/` is the most documented path).
